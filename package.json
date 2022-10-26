@@ -1,0 +1,23 @@
+{
+  "name": "vmss-eslint-config",
+  "version": "1.0.0",
+  "description": "VMS Sync eslint configuration.",
+  "author": "Bullhorn",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "private": true,
+  "peerDependency": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
