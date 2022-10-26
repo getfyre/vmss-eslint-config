@@ -4,11 +4,18 @@ module.exports = {
         'plugin:prettier/recommended',
         'prettier'
     ],
+    parserOptions: {
+        'ecmaVersion': 'latest',
+        'sourceType': 'module'
+    },
     rules: {
         'quotes': ['error', 'single', { 'avoidEscape': true }],
         'prefer-const': 'warn',
         'no-unreachable': 'error',
-        'prefer-arrow-callback': 'warn',
+        'no-console': 'warn',
+        'no-unused-vars': 'warn',
+        'indent': ['error', 4, {'MemberExpression': 'off', 'SwitchCase': 1}],
+        'prefer-arrow-callback': ['warn', {'allowNamedFunctions': true}],
         'semi': 'error',
         'keyword-spacing': ['error', {'before': true}],
         'comma-dangle': ['error', 'never'],
