@@ -1,7 +1,6 @@
 module.exports = {
     extends: [
         'airbnb-base',
-        'airbnb-typescript/base',
         'plugin:prettier/recommended',
         'prettier'
     ],
@@ -12,6 +11,16 @@ module.exports = {
         'prefer-arrow-callback': 'warn',
         'semi': 'error',
         'keyword-spacing': ['error', {'before': true}],
-        'comma-dangle': ['error', 'never']
+        'comma-dangle': ['error', 'never'],
+        'prettier/prettier': [
+            'error',
+            {
+                trailingComma: false,
+                tabWidth: 4,
+                semi: false,
+                singleQuote: true,
+                bracketSpacing: true
+            }
+        ]
     },
 };
