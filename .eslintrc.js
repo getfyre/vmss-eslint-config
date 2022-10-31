@@ -8,8 +8,9 @@ module.exports = {
         'ecmaVersion': 'latest',
         'sourceType': 'module'
     },
+    plugins: ['prettier'],
     rules: {
-        'quotes': ['error', 'single', { 'avoidEscape': true }],
+        'quotes': ['error', 'single', {'avoidEscape': true}],
         'prefer-const': 'warn',
         'no-unreachable': 'error',
         'no-console': 'warn',
@@ -29,5 +30,5 @@ module.exports = {
                 bracketSpacing: true
             }
         ]
-    },
+    }
 };
