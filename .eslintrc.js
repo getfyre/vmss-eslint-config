@@ -20,6 +20,10 @@ module.exports = {
         'semi': 'error',
         'keyword-spacing': ['error', {'before': true}],
         'comma-dangle': ['error', 'never'],
+        'no-underscore-dangle': 'allow',
+        'no-param-reassign': false,
+        'new-cap': ['error', {'newIsCap': false}],
+        'no-use-before-define': ['error', {'functions': false}],
         'prettier/prettier': [
             'error',
             {
