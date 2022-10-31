@@ -19,16 +19,6 @@ module.exports = {
         'prefer-arrow-callback': ['warn', {'allowNamedFunctions': true}],
         'semi': 'error',
         'keyword-spacing': ['error', {'before': true}],
-        'comma-dangle': ['error', 'never'],
-        'prettier/prettier': [
-            'error',
-            {
-                trailingComma: false,
-                tabWidth: 4,
-                semi: false,
-                singleQuote: true,
-                bracketSpacing: true
-            }
-        ]
+        'comma-dangle': ['error', 'never']
     }
 };
