@@ -21,7 +21,7 @@ module.exports = {
         'keyword-spacing': ['error', {'before': true}],
         'comma-dangle': ['error', 'never'],
         'no-underscore-dangle': 'off',
-        'no-param-reassign': false,
+        'no-param-reassign': 'off',
         'new-cap': ['error', {'newIsCap': false}],
         'no-use-before-define': ['error', {'functions': false}],
         'prettier/prettier': [
