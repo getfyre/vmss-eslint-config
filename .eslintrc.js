@@ -19,6 +19,12 @@ module.exports = {
         'comma-dangle': ['error', 'never'],
         'no-underscore-dangle': 'off',
         'no-param-reassign': 'off',
+        'linebreak-style': 'off',
+        'arrow-parens': 'off',
+        'func-names': 'off',
+        'max-len': ['warn', 120],
+        'prefer-promise-reject-errors': 'warn',
+        'consistent-return': 'warn',
         'new-cap': ['error', {'newIsCap': false}],
         'no-use-before-define': ['error', {'functions': false}]
     }
