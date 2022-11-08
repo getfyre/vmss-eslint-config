@@ -1,14 +1,11 @@
 module.exports = {
     extends: [
-        'airbnb-base',
-        'plugin:prettier/recommended',
-        'prettier'
+        'airbnb-base'
     ],
     parserOptions: {
         'ecmaVersion': 'latest',
         'sourceType': 'module'
     },
-    plugins: ['prettier'],
     rules: {
         'quotes': ['error', 'single', {'avoidEscape': true}],
         'prefer-const': 'warn',
@@ -23,16 +20,6 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'no-param-reassign': 'off',
         'new-cap': ['error', {'newIsCap': false}],
-        'no-use-before-define': ['error', {'functions': false}],
-        'prettier/prettier': [
-            'error',
-            {
-                trailingComma: 'none',
-                tabWidth: 4,
-                semi: true,
-                singleQuote: true,
-                bracketSpacing: true
-            }
-        ]
+        'no-use-before-define': ['error', {'functions': false}]
     }
 };
