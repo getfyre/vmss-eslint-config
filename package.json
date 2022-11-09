@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vmss",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "VMS Sync eslint configuration.",
   "author": "Bullhorn",
   "license": "UNLICENSED",
